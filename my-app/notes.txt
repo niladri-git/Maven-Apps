@@ -7,3 +7,15 @@ $ java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 
 $ cd target/classes/
 $ java com.mycompany.app.App 
+
++++
+
+$ mvn site
+
++++
+
+To trigger the plugin from the command line:
+
+$ mvn exec:java
+
+To bind the goal in the execution element
