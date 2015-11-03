@@ -14,7 +14,7 @@
 	List<Hotel> hotelList = model.findHotelsByCity(selectedCity);
 %>
 
-   <h3>Choose a destination</h3>
+   <h3>Greetings !!!</h3>
    <form action="index.jsp" method="get">
 	  Please choose a city:
       <SELECT name="city">
